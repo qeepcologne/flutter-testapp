@@ -1,0 +1,18 @@
+Source Code Management
+Git
+Repository URL
+https://github.com/qeepcologne/flutter-testapp
+
+Build Steps
+Execute shell
+cd flutter_module
+./build.sh
+
+Invoke Gradle script
+Use Gradle Wrapper
+clean
+assembleDebug
+
+Post-build Actions
+Files to archive
+app/build/outputs/apk/debug/*.apk
