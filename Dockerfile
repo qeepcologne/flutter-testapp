@@ -19,7 +19,7 @@ RUN wget -O /home/commandlinetools-latest.zip https://dl.google.com/android/repo
 RUN yes|sdkmanager --sdk_root=${ANDROID_HOME} "cmdline-tools;latest" "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
 #add flutter
-RUN apk add xz clang cmake ninja-build ninja pkgconf gtk+3.0-dev
+RUN apk add xz
 RUN wget -O /home/flutter.tar.xz https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.16.9-stable.tar.xz && tar -xvf /home/flutter.tar.xz -C /home && rm /home/flutter.tar.xz
 RUN chown -R root:root /home/flutter
 ENV PATH=$PATH:/home/flutter/bin
