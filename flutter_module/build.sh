@@ -1,1 +1,1 @@
-flutter build aar
+flutter build aar --no-debug --no-profile

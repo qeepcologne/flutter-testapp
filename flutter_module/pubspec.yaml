@@ -28,5 +28,5 @@ flutter:
 
   module:
     androidX: true
-    androidPackage: com.ecift.client.flutter_module
-    iosBundleIdentifier: com.ecift.client.flutterModule
+    androidPackage: com.example.client.flutter_module
+    iosBundleIdentifier: com.example.client.flutterModule
