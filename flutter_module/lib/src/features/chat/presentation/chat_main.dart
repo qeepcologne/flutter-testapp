@@ -57,11 +57,11 @@ void _fireNativeView({String? uri, String component = 'com.example.myapplication
 
 AppBar emptyBar(BuildContext context, Widget title, {List<Widget>? actions, Function()? backPressedHandler}) {
   return AppBar(
-    toolbarHeight: 48,
-    backgroundColor: Colors.red,
-    systemOverlayStyle: const SystemUiOverlayStyle(statusBarColor: Colors.red),
+//    toolbarHeight: 48,
+//    backgroundColor: Colors.red,
+//    systemOverlayStyle: const SystemUiOverlayStyle(statusBarColor: Colors.red),
     title: title,
-    iconTheme: const IconThemeData(color: Colors.white),
+ //   iconTheme: const IconThemeData(color: Colors.white),
     actions: actions ?? [],
   );
 }
